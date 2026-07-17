@@ -1,21 +1,29 @@
-# Kamil Marud — strona wizytówka
+# Kamil Marud — Java & Test Automation Portfolio
 
-Nowoczesna, jednostronicowa strona (klimat dark/tech) promująca profil eksperta od automatyzacji testów w Javie.
+Nowoczesna, jednostronicowa strona (dark/tech) prezentująca profil Java Developera i Test Automation Technical Leadera.
 
 ## Live
 
-Po publikacji na GitHub Pages adres może być dostępny jako:
-- `https://kamilmarud.github.io/test/` (repo projektowe)
+Strona publikowana jako GitHub Pages:
+- `https://kmarud.github.io/`
 
-## Struktura
+## Zawartość
 
-- `index.html` — treść i sekcje strony
-- `assets/css/style.css` — styl dark + layout + efekty
-- `assets/js/main.js` — interakcje (menu mobile, reveal on scroll, aktywna sekcja, back to top)
-- `.nojekyll` — wyłączenie Jekyll
+- `index.html` — treść strony (o mnie, kompetencje, doświadczenie, projekty, usługi, kontakt)
+- `assets/css/style.css` — styl dark + layout + animacje
+- `assets/js/main.js` — interakcje (mobile nav, reveal, aktywna sekcja, back-to-top)
+- `.nojekyll` — wyłączenie przetwarzania Jekyll na GitHub Pages
 
-## TODO (podmień dane kontaktowe)
+## Profil zawodowy (skrót)
 
-W pliku `index.html` znajdziesz komentarze `TODO`:
-- `placeholder@example.com` → podmień na właściwy adres e-mail
-- `https://www.linkedin.com/in/TODO` → podmień na właściwy profil LinkedIn
+- 10+ lat doświadczenia w tworzeniu oprogramowania
+- Java (w tym Java 8 SE+), Spring / Spring Boot, REST API
+- Test Automation, projektowanie frameworków od zera, ISTQB
+- Code review, mentoring, leadership techniczny
+- Git/GitHub/GitLab, Linux, Docker
+
+## Kontakt
+
+- E-mail: `kamil.marud@gmail.com`
+- LinkedIn: `https://www.linkedin.com/in/kamilmarud-7b9140175/`
+- GitHub: `https://github.com/kmarud`
