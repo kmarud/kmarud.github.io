@@ -1,10 +1,210 @@
+```html name=index.html
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-    <title>Moja pierwsza strona na GitHub Pages</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamil Marud — Ekspert od automatyzacji testów (Java)</title>
+  <meta name="description" content="Kamil Marud — ekspert od automatyzacji testów w Javie. 10+ lat doświadczenia w tworzeniu oprogramowania, także jako Backend Developer w Spring." />
+  <meta name="author" content="Kamil Marud" />
+  <link rel="canonical" href="https://kmarud.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kamil Marud — Ekspert od automatyzacji testów (Java)" />
+  <meta property="og:description" content="10+ lat doświadczenia. Java • Test Automation • Spring." />
+  <meta property="og:url" content="https://kmarud.github.io/" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/11329148?v=4" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kamil Marud — Ekspert od automatyzacji testów (Java)" />
+  <meta name="twitter:description" content="10+ lat doświadczenia. Java • Test Automation • Spring." />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/11329148?v=4" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <h1>Witaj na mojej stronie!</h1>
-    <p>Ta strona działa dzięki GitHub.io!</p>
+  <a class="skip-link" href="#main-content">Przejdź do treści</a>
+
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Strona główna">
+        <span class="brand-dot"></span>
+        Kamil Marud
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Otwórz menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Nawigacja główna">
+        <a href="#o-mnie">O mnie</a>
+        <a href="#kompetencje">Kompetencje</a>
+        <a href="#uslugi">Usługi</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+
+      <a class="btn btn-small btn-outline" href="#kontakt">Współpraca</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Java • Test Automation • Spring</p>
+          <h1>
+            Buduję skuteczną <span class="text-gradient">automatyzację testów</span>,
+            która realnie przyspiesza delivery.
+          </h1>
+          <p class="hero-description">
+            Jestem <strong>Kamilem Marudem</strong> — mam <strong>10+ lat doświadczenia</strong>
+            w tworzeniu oprogramowania. Specjalizuję się w automatyzacji testów w Javie
+            i wspieram zespoły także jako Backend Developer w Spring / Spring Boot.
+          </p>
+          <div class="hero-actions">
+            <!-- TODO: zmień placeholder@example.com na prawdziwy adres -->
+            <a class="btn btn-primary" href="mailto:placeholder@example.com">Nawiążmy współpracę</a>
+            <a class="btn btn-outline" href="#uslugi">Zobacz usługi</a>
+          </div>
+          <ul class="hero-metrics">
+            <li><strong>10+</strong><span>lat doświadczenia</span></li>
+            <li><strong>Java</strong><span>test automation</span></li>
+            <li><strong>Spring</strong><span>backend experience</span></li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Profil">
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/11329148?v=4" alt="Zdjęcie profilowe Kamila Maruda" loading="lazy" />
+          <h2>Kamil Marud</h2>
+          <p>Ekspert automatyzacji testów</p>
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            Otwarty na współpracę
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="o-mnie" class="section">
+      <div class="container reveal">
+        <h2>O mnie</h2>
+        <p class="section-lead">
+          Od ponad dekady tworzę oprogramowanie i pomagam zespołom dostarczać je szybciej,
+          bezpieczniej i z mniejszą liczbą regresji. Projektuję i wdrażam podejście do jakości
+          oparte na automatyzacji testów, praktycznym CI/CD oraz sensownych metrykach.
+        </p>
+        <p>
+          Pracowałem w wielu projektach produktowych i usługowych, również jako Backend Developer
+          w ekosystemie Spring. Dzięki temu łączę perspektywę QA Automation z realiami developmentu,
+          architektury i utrzymania systemów.
+        </p>
+      </div>
+    </section>
+
+    <section id="kompetencje" class="section">
+      <div class="container">
+        <h2 class="reveal">Kompetencje</h2>
+        <div class="card-grid card-grid-3">
+          <article class="card reveal">
+            <h3>Automatyzacja testów (Java)</h3>
+            <p>Projektowanie stabilnych i skalowalnych frameworków testowych.</p>
+            <ul>
+              <li>JUnit 5 / TestNG</li>
+              <li>Selenide / Selenium</li>
+              <li>REST Assured</li>
+              <li>Cucumber</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Backend & API</h3>
+            <p>Praktyczne doświadczenie deweloperskie po stronie serwera.</p>
+            <ul>
+              <li>Spring / Spring Boot</li>
+              <li>Testy API i kontraktowe</li>
+              <li>Maven / Gradle</li>
+              <li>Architektura usług</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Proces i delivery</h3>
+            <p>Jakość osadzona w procesie dostarczania oprogramowania.</p>
+            <ul>
+              <li>GitHub Actions / Jenkins</li>
+              <li>Pipeline CI/CD</li>
+              <li>Strategia testów</li>
+              <li>Code quality & review</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="uslugi" class="section">
+      <div class="container">
+        <h2 class="reveal">Formy współpracy</h2>
+        <div class="card-grid card-grid-2">
+          <article class="card reveal">
+            <h3>Audyt i strategia automatyzacji</h3>
+            <p>Analiza obecnego podejścia do testów + plan wdrożenia usprawnień i priorytetów.</p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Budowa frameworka testowego</h3>
+            <p>Projekt i implementacja frameworka dopasowanego do architektury Twojego produktu.</p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Wsparcie zespołu i mentoring</h3>
+            <p>Praktyczny mentoring dla QA/DEV, code review i podnoszenie jakości testów.</p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Integracja z CI/CD</h3>
+            <p>Wdrożenie testów do pipeline’ów, skrócenie feedback loop i redukcja regresji.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section section-contact">
+      <div class="container contact-box reveal">
+        <h2>Porozmawiajmy o համագործpracy</h2>
+        <p>
+          Szukasz wsparcia w automatyzacji testów, jakości lub procesie delivery?
+          Napisz — wrócę z konkretną propozycją działania.
+        </p>
+
+        <div class="contact-actions">
+          <!-- TODO: zmień placeholder@example.com na prawdziwy adres -->
+          <a class="btn btn-primary" href="mailto:placeholder@example.com">placeholder@example.com</a>
+          <a class="btn btn-outline" href="https://github.com/kmarud" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <!-- TODO: zmień na prawdziwy profil LinkedIn -->
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/TODO" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> Kamil Marud. Wszelkie prawa zastrzeżone.</p>
+      <button id="toTopBtn" class="to-top" aria-label="Wróć do góry">↑</button>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
+```
