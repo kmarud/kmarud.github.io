@@ -33,9 +33,7 @@ const setActiveLink = () => {
   menuLinks.forEach((link) => {
     link.classList.remove("active");
     const href = link.getAttribute("href");
-    if (href === `#${current}`) {
-      link.classList.add("active");
-    }
+    if (href === `#${current}`) link.classList.add("active");
   });
 };
 
@@ -65,6 +63,4 @@ if (toTopBtn) {
 }
 
 const year = document.getElementById("currentYear");
-if (year) {
-  year.textContent = String(new Date().getFullYear());
-}
+if (year) year.textContent = String(new Date().getFullYear());
