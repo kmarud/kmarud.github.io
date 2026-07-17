@@ -68,5 +68,3 @@ const year = document.getElementById("currentYear");
 if (year) {
   year.textContent = String(new Date().getFullYear());
 }
-
-Na końcu zostanie jeszcze `README.md`. Napisz **„README”** i wkleję gotowy.
